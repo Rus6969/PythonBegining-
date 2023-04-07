@@ -79,7 +79,35 @@ print(1<2 and 0>-1)
 
 print(len(hello) < len(world) or len(world) == 5)
 
+# read files in Python
+file = open("main.py")
+#returns String
+data = file.read()
+print(data)
+#returns to beginig of a page
+file.seek(0)
 
 
+#if we do not want return string in file we cam use  list
 
+lines = file.readlines()
+print(type(lines))
+print(lines)
+
+file.close()
+#print(file.closed())
+
+
+#with open ("/Users/ruslansamatov/Desktop/Sample.txt", mode = 'a') as sample_file:
+#    sample_file.write("Inna: Boss")
+
+  #  print(sample_file.read())
+
+
+with open("test_sample.txt",mode='w+') as test:
+    test.write("Inna is Alan's mom")
+    test.seek(0)
+    print(test.read(
+
+    ))
 
