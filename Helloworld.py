@@ -74,10 +74,10 @@ hello = "hello"
 world = " world"
 print(hello+world)
 
+# Operators and or
+print(1<2 and 0>-1)
 
-
-
-
+print(len(hello) < len(world) or len(world) == 5)
 
 
 
