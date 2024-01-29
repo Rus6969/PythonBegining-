@@ -13,7 +13,7 @@ data = pandas.read_csv('/Users/ruslansamatov/Projects/PythonBegining-/Python_dat
 
 #print(data.hist('Year'))
 
-plt.show()
+#plt.show()
 
 
  # get specific row
