@@ -2,6 +2,8 @@
 1. create an environement /Users/ruslansamatov/Projects/PythonBegining-/Django
 2. check python version python 3.12 
 3.  python3.12 -m venv env   ( here we are creting python environement)
-4. Command + shift+P select intepreter
+4. Command + shift+P select intepreter ( env path we have created )
+5.  django-admin startproject mysite . ( for project creation)
+ 
 
 
