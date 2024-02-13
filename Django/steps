@@ -9,6 +9,7 @@
 8. add super  user python manage.py createsuperuser
 9. run  erver again  http://127.0.0.1:8000/admin/login/?next=/admin/
 10. start app give a name to app : startapp blog   % python manage.py startapp blog 
+11. my site -> settings -> INSTALLED_APPS =  add in the list name of app it tells django that we add this app to django framework 
  
 
 
